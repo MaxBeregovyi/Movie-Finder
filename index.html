@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./src/css/sass.css"/>
+    <title>Document</title>
+</head>
+<body>
+<header class="center">
+    <a href="index.html">Movie Finder</a>
+</header>
+<input
+        class="form__input"
+        type="text"
+        name="query"
+        id="query"
+        placeholder="Enter movie title"
+/>
+<!--<form class="form center" name="searchMovieForm">-->
+<!--    <input-->
+<!--            class="form__input"-->
+<!--            type="text"-->
+<!--            name="query"-->
+<!--            placeholder="Enter movie titel"-->
+<!--    />-->
+<!--    <button class="form__btn">-->
+<!--        <span class="material-symbols-outlined"> search </span>-->
+<!--    </button>-->
+<!--</form>-->
+<main class="center">
+    <section class="search-result">
+        <h1>Search result for: <span class="query"></span></h1>
+        <article class="search-result__item">
+            <picture class="search-result__poster">
+                <img src="https://www.omdbapi.com/src/poster.jpg" alt="#"/>
+            </picture>
+            <h2 class="search-result__titel">Lorem ipsum dolor sit.</h2>
+            <p class="search-result__plot">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, numquam amet odio architecto doloremque tenetur
+                laboriosam culpa officiis sit quaerat.
+            </p>
+            <a class="search-result__about" href="#">
+                About
+                <span class="material-symbols-outlined"> arrow_forward_ios </span>
+            </a>
+        </article>
+    </section>
+</main>
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
